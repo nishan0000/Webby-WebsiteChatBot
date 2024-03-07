@@ -13,7 +13,7 @@ Welcome to the GitHub repository for Webby, a chatbot designed for interacting w
 1. Clone this repository to your local machine.
 
 ```
-git clone [repository-link]
+git clone https://github.com/nishan0000/Webby-WebsiteChatBot.git
 cd [repository-directory]
 ```
 
