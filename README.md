@@ -10,7 +10,7 @@ Welcome to the GitHub repository for Webby, a chatbot designed for interacting w
 - Webby utilizes a Retrieval-Augmented Generation (RAG) approach. This involves augmenting the knowledge of the language model with additional information passed in the prompt. Text is vectorized to find -the most similar content to the prompt, which is then passed to the language model as a prefix.
 
 ## Architecture
-![RAG Diagram]('docs/RAG Architecture.jpg')
+![RAG Diagram](docs/RAG-Architecture.jpg)
 
 ### Installation
 1. Clone this repository to your local machine.
