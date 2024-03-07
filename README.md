@@ -9,6 +9,9 @@ Welcome to the GitHub repository for Webby, a chatbot designed for interacting w
 - Entirely langchain bassed development. Easy integration of multiple new features possible.
 - Webby utilizes a Retrieval-Augmented Generation (RAG) approach. This involves augmenting the knowledge of the language model with additional information passed in the prompt. Text is vectorized to find -the most similar content to the prompt, which is then passed to the language model as a prefix.
 
+## Architecture
+![RAG Diagram]('docs/RAG Architecture.jpg')
+
 ### Installation
 1. Clone this repository to your local machine.
 
@@ -29,9 +32,8 @@ pip install -r requirements.txt
 OPENAI_API_KEY=[your-openai-api-key]
 ```
 
-4. Usage
+## Usage
 To run the Webby application:
-
 ```
 streamlit run app.py
 ```
